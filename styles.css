@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+}
+.bgDiv{
+    height: 400vh;
+    background-color: #dbdbe7;
+}
+.topDiv{
+    height: 50px;
+    background-color: #dbdbe7;
+}
+.purpleMiddle{
+    margin-top: -790px;
+    height: 500px;
+    background-image: linear-gradient(rgba(98, 73, 229,0.9),rgba(98, 73, 229,0.9)), url(images/fort.jpg) ;
+}
+.button{
+    min-width: 100px;
+    background-image: linear-gradient(to right, #6249e5 , #3e23fc);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 50px;
+}
+.buttonTop{
+    margin-left: 75vw;
+    margin-top: 10px;
+}
+.button i{
+    margin-left: 10px;
+}
+.banner{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    height: 45px;
+    width: 65vw;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 3px;
+}
+.navbar ul{
+    width: 65vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar li{
+    float: left;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.playstationImg{
+    margin-top: 10px;
+    height: 500px;
+    width: 65vw;
+    box-shadow: -2px 5px 20px rgb(73, 73, 73);
+    background-image: linear-gradient(to bottom right, #0085d6, #003387);
+}
+.joinCard{
+    display: flex;
+    margin-top: 10px;
+    height: 250px;
+    width: 65vw;
+    background-color: white;
+}
+.joinLeft{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    background-color: #4a28c7;
+}
+.joinRight{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.treasureImg{
+    margin-top: 60px;
+    height: 100px;
+    width: 150px;
+}
+.loginWith{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 14px;
+}
+.joinFree{
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+}
+.join-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: 600;
+}
+.join-for-free{
+    font-size: 25px;
+}
+.already-have{
+    font-size: 14px;
+}
+.enter-details{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: darkgray;
+    font-weight: 500;
+}
+.enter-details input{
+    border: 0;
+    border-bottom: 2px solid darkgray;
+    outline: 0;
+    width: 150px;
+    color: black;
+    font-weight: 600;
+}
+.enter-details input::placeholder{
+    color: #000;
+}
+.vertical-divider {
+    margin-top: 50px;
+	position: absolute;
+	display: table;
+	text-align: center;
+	margin-left: 320px;
+	height: 150px;
+	width: 2px;
+}	
+	.center-element {
+		position: relative;
+		display: table-cell;
+		vertical-align: middle;
+    }	
+		.center-element::before, .center-element::after {
+			position: absolute;
+			content: "";
+			width: 1px;
+			left: 50%;
+			border-left: 2px solid darkgray;
+		}
+		.center-element::before {
+			bottom: 50%;
+			top: 0;
+			margin-bottom: 20px;
+		}
+		.center-element::after {
+			top: 50%;
+			bottom: 0;
+			margin-top: 20px;
+		}
+
+.socialButtons{
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: 500;
+    margin-right: 50px;
+}
+.facebook{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 2px blue;
+}
+.google{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 2px yellow;
+}
+.agreeTerms{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/* right side part */
+
+.get-free-container{
+    display: flex;
+    justify-content: center;
+}
+.get-free-section{
+    width: 65vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 350px;
+}
+.get-free-left{
+    width: 60%;
+    font-weight: 600;
+}
+.get-free-left img{
+    border-radius: 5px;
+}
+.get-free-img{
+    margin-bottom: 50px;
+}
+.get-free-left p{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+.get-free-right{
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    background-color: rgb(250, 250, 250);
+    font-weight: 700;
+}
+.get-free-right p{
+    font-size: 12px;
+    font-weight: normal;
+    color: darkgray;
+}
+.get-free-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 10px;
+    height: 40%;
+    box-shadow: 2px 2px 3px rgb(227, 227, 227);
+    border-radius: 10px 10px 2px 2px;
+}
+.get-free-top img{
+    border-radius: 10px 10px 0px 0px;
+}
+.get-free-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: space-around;
+    margin-top: 20px;
+    height: 40%;
+    box-shadow: 2px 2px 3px rgb(227, 227, 227);
+    border-radius: 10px 10px 2px 2px;
+}
+.get-free-bottom img{
+    border-radius: 10px 10px 0px 0px;
+}
+.steam-img{
+    margin-top: -30px;
+    margin-left: 10px;
+    margin-right: 150px;
+    padding: 10px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.badge{
+    margin-top: 10px;
+    background-color: #d7cfff;
+    padding: 2px 8px;
+    border-radius: 20px;
+    width: max-content;
+    font-size: 10px;
+    color: #635f75;
+    font-weight: normal;
+}
+.get-free-bottom-text{
+    margin-top: 10px;
+    color: #ffa02b;
+}
+.get-free-bottom-text p{
+    margin-bottom: -25px;
+    
+}
+
+.shops-container{
+    display: flex;
+    justify-content: center;
+}
+.shops-section{
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.shops-section p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-images{   
+    max-width: 65vw;
+    margin-top: 30px;
+}
+.card-images img{
+    margin-right: 10px;
+    border-radius: 8px;
+    height: 225px;
+}
+.load-more{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 200px;
+    border: 2px solid #6249e5;
+    color: #6249e5;
+}
+.load-more i{
+    margin-left: 10px;
+}
+.offers-card-images{
+    display: flex;
+    max-width: 65vw;
+    margin-top: 30px;
+}
+.offers-card-images img{
+    border-radius: 8px;
+    height: 195px;
+}
+.image-card{
+    width: 135px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 12px;
+}
+.image-card :hover{
+    color: #ffa02b  ;
+}
+.card-button{
+    margin-top: 5px;
+    display: flex;
+    width: 135px;
+    justify-content: space-between;
+    background-color: white;
+    border: 0px;
+}
+.active{
+    color: #ffa02b;
+}
+.inactive{
+    color: darkgray;
+}
+.coupons-section{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: block;
+    width: 60vw;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(185, 185, 185);
+}
+.coupons-section table{
+    width: 60vw;
+    width: 60vw;
+    /* border-collapse: separate; */
+    border-collapse: collapse;
+    border-spacing: 0 1em;
+}
+.coupons-section td{
+    text-align: left;
+}
+.coupons-section th{
+    text-align: left;
+    color: rgb(149, 149, 149);
+    font-weight: 500;
+}
+.coupons-section tr{
+    border: 2px solid #e2e1e6;
+    border-radius: 10px;
+}
+.image-td{
+    margin-top: 5px;    
+    margin-left: 7px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.name-table{
+    color: #6150dd;
+}
+.copy-button{
+    background-color: #cec9e9;
+    border: 0px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: #6150dd; 
+    font-weight: 500;
+}
+.social-but-table{
+    margin-top: 7px;
+    background: 0px;
+    border: 0px;
+}
+
+tr:first-child td:first-child { border-top-left-radius: 10px; }
+tr:first-child td:last-child { border-top-right-radius: 10px; }
+
+tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+tr:last-child td:last-child { border-bottom-right-radius: 10px; }
