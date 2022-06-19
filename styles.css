@@ -6,37 +6,41 @@
     padding: 0;
     font-family: poppins, sans-serif;
 }
+html{
+    font-size: 10px;
+}
 .bgDiv{
-    height: 400vh;
+    height: 200rem;
+    width: 152rem;
     background-color: #dbdbe7;
 }
 .topDiv{
-    height: 50px;
+    height: 5rem;
     background-color: #dbdbe7;
 }
 .purpleMiddle{
-    margin-top: -790px;
-    height: 500px;
+    margin-top: -79rem;
+    height: 50rem;
     background-image: linear-gradient(rgba(98, 73, 229,0.9),rgba(98, 73, 229,0.9)), url(images/fort.jpg) ;
 }
 .button{
-    min-width: 100px;
+    min-width: 10rem;
     background-image: linear-gradient(to right, #6249e5 , #3e23fc);
     border: none;
     color: white;
-    padding: 10px 25px;
+    padding: 1rem 2.5rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
-    border-radius: 50px;
+    font-size: 1.2rem;
+    border-radius: 5rem;
 }
 .buttonTop{
-    margin-left: 75vw;
-    margin-top: 10px;
+    margin-left: 120rem;
+    margin-top: 1rem;
 }
 .button i{
-    margin-left: 10px;
+    margin-left: 1rem;
 }
 .banner{
     display: flex;
@@ -48,14 +52,14 @@
     display: flex;
     justify-content: space-evenly;
     align-content: space-between;
-    height: 45px;
-    width: 65vw;
-    margin-top: 10px;
+    height: 4.5rem;
+    width: 100rem;
+    margin-top: 1rem;
     background-color: white;
-    border-radius: 3px;
+    border-radius: .3rem;
 }
 .navbar ul{
-    width: 65vw;
+    width: 100rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -64,21 +68,21 @@
     float: left;
     list-style-type: none;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-family: 'Poppins', sans-serif;
 }
 .playstationImg{
-    margin-top: 10px;
-    height: 500px;
-    width: 65vw;
-    box-shadow: -2px 5px 20px rgb(73, 73, 73);
+    margin-top: 1rem;
+    height: 50rem;
+    width: 100rem;
+    box-shadow: -.2rem .5rem 2rem rgb(73, 73, 73);
     background-image: linear-gradient(to bottom right, #0085d6, #003387);
 }
 .joinCard{
     display: flex;
-    margin-top: 10px;
-    height: 250px;
-    width: 65vw;
+    margin-top: 1rem;
+    height: 25rem;
+    width: 100rem;
     background-color: white;
 }
 .joinLeft{
@@ -93,27 +97,27 @@
     width: 80%;
 }
 .treasureImg{
-    margin-top: 60px;
-    height: 100px;
-    width: 150px;
+    margin-top: 6rem;
+    height: 10rem;
+    width: 15rem;
 }
 .loginWith{
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 3rem;
+    margin-left: 3rem;
     width: 30%;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 .joinFree{
     width: 70%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    margin-right: 50px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 5rem;
     display: flex;
     flex-direction: column;
     align-items: space-evenly;
@@ -126,23 +130,23 @@
     font-weight: 600;
 }
 .join-for-free{
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 .already-have{
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 .enter-details{
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 1.2rem;
     color: darkgray;
     font-weight: 500;
 }
 .enter-details input{
     border: 0;
-    border-bottom: 2px solid darkgray;
+    border-bottom: .2rem solid darkgray;
     outline: 0;
-    width: 150px;
+    width: 15rem;
     color: black;
     font-weight: 600;
 }
@@ -150,13 +154,13 @@
     color: #000;
 }
 .vertical-divider {
-    margin-top: 50px;
+    margin-top: 5rem;
 	position: absolute;
 	display: table;
 	text-align: center;
-	margin-left: 320px;
-	height: 150px;
-	width: 2px;
+	margin-left: 32rem;
+	height: 15rem;
+	width: .2rem;
 }	
 	.center-element {
 		position: relative;
@@ -166,43 +170,43 @@
 		.center-element::before, .center-element::after {
 			position: absolute;
 			content: "";
-			width: 1px;
+			width: .1rem;
 			left: 50%;
-			border-left: 2px solid darkgray;
+			border-left: .2rem solid darkgray;
 		}
 		.center-element::before {
 			bottom: 50%;
 			top: 0;
-			margin-bottom: 20px;
+			margin-bottom: 2rem;
 		}
 		.center-element::after {
 			top: 50%;
 			bottom: 0;
-			margin-top: 20px;
+			margin-top: 2rem;
 		}
 
 .socialButtons{
     background-color: white;
-    border-radius: 50px;
-    padding: 10px;
+    border-radius: 5rem;
+    padding: 1rem;
     font-weight: 500;
-    margin-right: 50px;
+    margin-right: 5rem;
 }
 .facebook{
     display: flex;
     justify-content: space-evenly;
-    border: solid 2px blue;
+    border: solid .2rem blue;
 }
 .google{
     display: flex;
     justify-content: space-evenly;
-    border: solid 2px yellow;
+    border: solid .2rem yellow;
 }
 .agreeTerms{
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -214,30 +218,30 @@
     justify-content: center;
 }
 .get-free-section{
-    width: 65vw;
+    width: 100rem;
     display: flex;
     justify-content: space-between;
-    margin-top: 350px;
+    margin-top: 35rem;
 }
 .get-free-left{
     width: 60%;
     font-weight: 600;
 }
 .get-free-left img{
-    border-radius: 5px;
+    border-radius: .5rem;
 }
 .get-free-img{
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 .get-free-left p{
-    margin-top: 5px;
+    margin-top: .5rem;
     font-weight: 400;
-    font-size: 14px;
-    margin-bottom: 50px;
+    font-size: 1.4rem;
+    margin-bottom: 5rem;
 }
 .get-free-right{
     display: flex;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     flex-direction: column;
     justify-content: space-around;
     width: 30%;
@@ -245,7 +249,7 @@
     font-weight: 700;
 }
 .get-free-right p{
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: normal;
     color: darkgray;
 }
@@ -253,53 +257,53 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    margin-top: 10px;
+    margin-top: 1rem;
     height: 40%;
-    box-shadow: 2px 2px 3px rgb(227, 227, 227);
-    border-radius: 10px 10px 2px 2px;
+    box-shadow: .2rem .2rem .3rem rgb(227, 227, 227);
+    border-radius: 1rem 1rem .2rem .2rem;
 }
 .get-free-top img{
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 1rem 1rem 0rem 0rem;
 }
 .get-free-bottom{
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: space-around;
-    margin-top: 20px;
+    margin-top: 2rem;
     height: 40%;
-    box-shadow: 2px 2px 3px rgb(227, 227, 227);
-    border-radius: 10px 10px 2px 2px;
+    box-shadow: .2rem .2rem .3rem rgb(227, 227, 227);
+    border-radius: 1rem 1rem 2rem 2rem;
 }
 .get-free-bottom img{
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 1rem 1rem 0rem 0rem;
 }
 .steam-img{
-    margin-top: -30px;
-    margin-left: 10px;
-    margin-right: 150px;
-    padding: 10px;
-    height: 30px;
+    margin-top: -3rem;
+    margin-left: 1rem;
+    margin-right: 15rem;
+    padding: 1rem;
+    height: 3rem;
     background-color: white;
-    border-radius: 5px;
+    border-radius: .5rem;
 }
 
 .badge{
-    margin-top: 10px;
+    margin-top: 1rem;
     background-color: #d7cfff;
-    padding: 2px 8px;
-    border-radius: 20px;
+    padding: .2rem .8rem;
+    border-radius: 2rem;
     width: max-content;
-    font-size: 10px;
+    font-size: 1rem;
     color: #635f75;
     font-weight: normal;
 }
 .get-free-bottom-text{
-    margin-top: 10px;
+    margin-top: 1rem;
     color: #ffa02b;
 }
 .get-free-bottom-text p{
-    margin-bottom: -25px;
+    margin-bottom: -2.5rem;
     
 }
 
@@ -308,65 +312,65 @@
     justify-content: center;
 }
 .shops-section{
-    width: 65vw;
+    width: 100rem;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 5rem;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.5rem;
 }
 .shops-section p{
-    margin-top: 10px;
-    font-size: 14px;
+    margin-top: 1rem;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 .card-images{   
-    max-width: 65vw;
-    margin-top: 30px;
+    max-width: 100rem;
+    margin-top: 3rem;
 }
 .card-images img{
-    margin-right: 10px;
-    border-radius: 8px;
-    height: 225px;
+    margin-right: 1rem;
+    border-radius: .8rem;
+    height: 22.5rem;
 }
 .load-more{
     display: block;
     margin: auto;
-    margin-top: 40px;
-    width: 200px;
-    border: 2px solid #6249e5;
+    margin-top: 4rem;
+    width: 20rem;
+    border: .2rem solid #6249e5;
     color: #6249e5;
 }
 .load-more i{
-    margin-left: 10px;
+    margin-left: 1rem;
 }
 .offers-card-images{
     display: flex;
-    max-width: 65vw;
-    margin-top: 30px;
+    max-width: 100rem;
+    margin-top: 3rem;
 }
 .offers-card-images img{
-    border-radius: 8px;
-    height: 195px;
+    border-radius: .8rem;
+    height: 19.5rem;
 }
 .image-card{
-    width: 135px;
-    margin-left: 10px;
-    padding: 10px;
+    width: 13.5rem;
+    margin-left: 1rem;
+    padding: 1rem;
     background-color: white;
-    border-radius: 8px;
-    font-size: 12px;
+    border-radius: .8rem;
+    font-size: .12rem;
 }
 .image-card :hover{
     color: #ffa02b  ;
 }
 .card-button{
-    margin-top: 5px;
+    margin-top: .5rem;
     display: flex;
-    width: 135px;
+    width: 13.5rem;
     justify-content: space-between;
     background-color: white;
-    border: 0px;
+    border: 0rem;
 }
 .active{
     color: #ffa02b;
@@ -375,21 +379,21 @@
     color: darkgray;
 }
 .coupons-section{
-    margin-top: 100px;
+    margin-top: 10rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 2rem;
     display: block;
-    width: 60vw;
+    width: 100rem;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 1.4rem;
     background-color: white;
-    border-radius: 5px;
-    box-shadow: 2px 2px 10px rgb(185, 185, 185);
+    border-radius: .5rem;
+    box-shadow: .2rem .2rem 1rem rgb(185, 185, 185);
 }
 .coupons-section table{
-    width: 60vw;
-    width: 60vw;
+    width: 100rem;
+    width: 100rem;
     /* border-collapse: separate; */
     border-collapse: collapse;
     border-spacing: 0 1em;
@@ -403,35 +407,29 @@
     font-weight: 500;
 }
 .coupons-section tr{
-    border: 2px solid #e2e1e6;
-    border-radius: 10px;
+    border: .2rem solid #e2e1e6;
+    border-radius: 1rem;
 }
 .image-td{
-    margin-top: 5px;    
-    margin-left: 7px;
-    padding: 10px;
+    margin-top: .5rem;    
+    margin-left: .7rem;
+    padding: 1rem;
     background-color: white;
-    border-radius: 5px;
+    border-radius: .5rem;
 }
 .name-table{
     color: #6150dd;
 }
 .copy-button{
     background-color: #cec9e9;
-    border: 0px;
-    border-radius: 20px;
-    padding: 5px 20px;
+    border: 0rem;
+    border-radius: 2rem;
+    padding: .5rem 2rem;
     color: #6150dd; 
     font-weight: 500;
 }
 .social-but-table{
-    margin-top: 7px;
-    background: 0px;
-    border: 0px;
+    margin-top: .7rem;
+    background: 0rem;
+    border: 0rem;
 }
-
-tr:first-child td:first-child { border-top-left-radius: 10px; }
-tr:first-child td:last-child { border-top-right-radius: 10px; }
-
-tr:last-child td:first-child { border-bottom-left-radius: 10px; }
-tr:last-child td:last-child { border-bottom-right-radius: 10px; }
