@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ReadyMotive</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,7 +12,17 @@
 
 <body>
     <div class="bgDiv">
+        <img src="images/cross.png" alt="" class="cross" id="cross-icon">
+        <div class="nav-mobile" id="nav_mobile">
+            <ul>
+                <li>Home</li>
+                <li>Earn More</li>
+                <li>More+</li>
+                <li>Redeem</li>
+            </ul>
+        </div>
         <div class="topDiv">
+            <img class="menu-icon" src="images/menu.png" alt="" height="25" id="menu_icon">
             <button class="button buttonTop">Sign up
                 <i class="fa fa-arrow-circle-right"></i>
             </button>
@@ -209,22 +219,6 @@
         </div>
         <div class="coupons-section">
             Coupons:<br><br>
-            <!-- <div class="row-first">
-                <p class="item-first">Coupon type</p>
-                <p class="item-second">Coupons's title</p>
-                <p class="item-third">Name</p>
-                <p class="item-fourth">Social</p>
-            </div>
-            <div class="coupon-row">
-                <img class="item-first" src="" alt="">
-                <p class="item-second">Get 20% off $50, Free crossbow by blog</p>
-                <p class="item-third">qwerty222</p>
-                <button>copy</button>
-                <div class="social-buttons">
-                <button><img src="/images/facebook.png" alt="" height="20"></button>
-                <button><img src="/images/google.png" alt="" height="20"></button>
-                <button><img src="/images/google.png" alt="" height="20"></button>
-            </div>  -->
             <table border="0" cellspacing="10" cellpadding="10">
                 <tr>
                     <th style="padding-left: 10px;padding-top: 10px;padding-bottom: 10px;">Coupon type</th>
@@ -304,5 +298,27 @@
         </div>
     </div>
 </body>
+
+<script>
+    var menu = document.getElementById("menu_icon");
+    var nav_mobile = document.getElementById("nav_mobile");
+    var cross = document.getElementById("cross-icon");
+    menu.addEventListener('click', showMenu);
+    function showMenu(){
+        menu.style.visibility = "hidden";
+        nav_mobile.style.display = "flex";
+        cross.style.display = "block";
+        nav_mobile.style.visibility = "visible";
+        cross.style.visibility = "visible";
+    }   
+    cross.addEventListener('click', closeMenu);
+    function closeMenu(){
+        nav_mobile.style.visibility = "hidden";
+        cross.style.visibility = "hidden";
+        menu.style.visibility = "visible";
+        nav_mobile.style.display = "none";
+        cross.style.display = "none";
+    }
+</script>
 
 </html>

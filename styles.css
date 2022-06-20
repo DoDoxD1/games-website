@@ -8,6 +8,7 @@
 }
 html{
     font-size: 10px;
+    zoom: 1;
 }
 body{
     overflow-x: hidden;
@@ -28,6 +29,9 @@ body{
     margin-top: -79rem;
     height: 50rem;
     background-image: linear-gradient(rgba(98, 73, 229,0.9),rgba(98, 73, 229,0.9)), url(images/fort.jpg) ;
+}
+.menu-icon{
+    display: none;
 }
 .button{
     min-width: 10rem;
@@ -452,19 +456,59 @@ body{
     background: 0rem;
     border: 0rem;
 }
-
+.nav-mobile{
+    display: none;
+}
+.cross{
+    display: none;
+}
 @media screen and (max-width: 450px) {
     .bgDiv{
         width: 42rem;
         height: 450rem;
     }
+    .nav-mobile{
+        position: fixed;
+        background-color: rgba(0, 0, 0, .7);
+        justify-content: center;
+        align-items: center;
+        color: rgb(190, 204, 255); /* beccff */
+        width: 100%;
+        height: 95rem;
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    .nav-mobile li{
+        list-style-type: none;
+    }
+    .cross{
+        height: 5rem;
+        position: fixed;
+        margin: 1rem;
+        z-index: 5;
+    }
+    .topDiv{
+        display: flex;
+        width: 35rem;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .menu-icon{
+        margin-top: 1rem;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
     .buttonTop{
-        margin-left: 25rem;
+        margin-left: 0rem; 
     }
     .navbar{
+        display: none;
         width: 35rem;
     }
     .playstationImg{
+        margin: 2rem;
         width: 35rem;
     }
     .joinCard{
@@ -498,9 +542,6 @@ body{
     }
     .agreeTerms{
         margin-top: 1.5rem;
-    }
-    .button{
-        margin-top: 1rem;
     }
     .facebook{
         margin: auto;
@@ -542,7 +583,7 @@ body{
         height: 7.8rem !important;
     }
     .get-free-right{
-        width: 86%;
+        width: 75%;
     }
     .shops-section{
         width: 35rem;
