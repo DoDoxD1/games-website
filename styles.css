@@ -18,7 +18,7 @@ body{
 }
 .bgDiv{
     height: 300rem;
-    width: 152rem;
+    /* width: 152rem; */
     background-color: #dbdbe7;
 }
 .topDiv{
@@ -46,7 +46,7 @@ body{
     border-radius: 5rem;
 }
 .buttonTop{
-    margin-left: 120rem;
+    margin-left: 75%;
     margin-top: 1rem;
 }
 .button i{
@@ -465,7 +465,7 @@ body{
 @media screen and (max-width: 450px) {
     .bgDiv{
         width: 42rem;
-        height: 450rem;
+        height: 480rem;
     }
     .nav-mobile{
         position: fixed;
