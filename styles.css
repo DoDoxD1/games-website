@@ -9,8 +9,11 @@
 html{
     font-size: 10px;
 }
+.margin-left-20{
+    margin-left: 2rem;
+}
 .bgDiv{
-    height: 200rem;
+    height: 300rem;
     width: 152rem;
     background-color: #dbdbe7;
 }
@@ -225,6 +228,7 @@ html{
 }
 .get-free-left{
     width: 60%;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 .get-free-left img{
@@ -244,7 +248,8 @@ html{
     padding: 1rem 2rem;
     flex-direction: column;
     justify-content: space-around;
-    width: 30%;
+    width: 28%;
+    height: 93%;
     background-color: rgb(250, 250, 250);
     font-weight: 700;
 }
@@ -262,8 +267,15 @@ html{
     box-shadow: .2rem .2rem .3rem rgb(227, 227, 227);
     border-radius: 1rem 1rem .2rem .2rem;
 }
+.get-free-left{
+    margin-bottom: 2rem;
+}
 .get-free-top img{
     border-radius: 1rem 1rem 0rem 0rem;
+}
+.game-img{
+    width: 100%;
+    height: 13.5rem;
 }
 .get-free-bottom{
     display: flex;
@@ -273,7 +285,7 @@ html{
     margin-top: 2rem;
     height: 40%;
     box-shadow: .2rem .2rem .3rem rgb(227, 227, 227);
-    border-radius: 1rem 1rem 2rem 2rem;
+    border-radius: 1rem 1rem .2rem .2rem;
 }
 .get-free-bottom img{
     border-radius: 1rem 1rem 0rem 0rem;
@@ -308,13 +320,14 @@ html{
 }
 
 .shops-container{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 .shops-section{
     width: 100rem;
     display: flex;
     flex-direction: column;
+    margin: auto;
     margin-top: 5rem;
     font-weight: 600;
     font-size: 1.5rem;
@@ -325,8 +338,10 @@ html{
     font-weight: 400;
 }
 .card-images{   
+    display: grid;
     max-width: 100rem;
     margin-top: 3rem;
+    grid-template-columns: auto auto auto auto auto auto;
 }
 .card-images img{
     margin-right: 1rem;
@@ -345,9 +360,10 @@ html{
     margin-left: 1rem;
 }
 .offers-card-images{
-    display: flex;
+    display: grid;
     max-width: 100rem;
     margin-top: 3rem;
+    grid-template-columns: auto auto auto auto auto auto;
 }
 .offers-card-images img{
     border-radius: .8rem;
@@ -432,4 +448,136 @@ html{
     margin-top: .7rem;
     background: 0rem;
     border: 0rem;
+}
+
+@media screen and (max-width: 450px) {
+    .bgDiv{
+        width: 42rem;
+        height: 450rem;
+    }
+    .buttonTop{
+        margin-left: 25rem;
+    }
+    .navbar{
+        width: 35rem;
+    }
+    .playstationImg{
+        width: 35rem;
+    }
+    .joinCard{
+        margin-top: 2rem;
+        width: 35rem;
+        display: grid;
+        height: max-content;
+    }
+    .joinRight{
+        width: 100%;
+        display: grid;
+    }
+    .joinFree{
+        width: 100%;
+        margin: auto;
+        padding: 2rem;
+    }
+    .enter-details{
+        margin-top: 1rem;
+        display: block;
+    }
+    .margin-left-20{
+        margin-left: 0rem;
+        margin-top: 1rem; 
+    }
+    .inputs{
+        margin-left: 1rem;
+    }
+    .checkbox{
+        display: inline;
+    }
+    .agreeTerms{
+        margin-top: 1.5rem;
+    }
+    .button{
+        margin-top: 1rem;
+    }
+    .facebook{
+        margin: auto;
+    }
+    .google{
+        margin: auto;
+    }
+    .join-top{
+        display: block;
+    }
+    .joinLeft{
+        width: 100%;
+    }
+    .treasureImg{
+        margin: 5rem;
+    }
+    .agreeTerms{
+        display: block;
+    }
+    .loginWith{
+        flex-direction: row;
+        margin: 1rem 0;
+        padding: 1rem;
+        width: 98%;
+        align-items: center;
+    }
+    .get-free-section{
+        width: 35rem;
+        display: grid;
+    }
+    .get-free-left{
+        width: 35rem;
+        text-align: left;
+    }
+    .get-free-left img{
+        height: 14rem;
+    }
+    .get-free-img{
+        height: 7.8rem !important;
+    }
+    .get-free-right{
+        width: 86%;
+    }
+    .shops-section{
+        width: 35rem;
+        display: grid;
+    }
+    .card-images{
+        grid-template-columns: auto auto;
+        row-gap: 2rem;
+        column-gap: auto;
+    }
+    .offers-card-images{
+        grid-template-columns: auto auto;
+        row-gap: 2rem;
+    }
+    .vertical-divider{
+        /* display: none; */
+        transform: rotatez(90deg);
+        margin-left: 17rem;
+        margin-top: 20.2rem;
+        padding: auto;
+    }
+    .center-element p{
+        transform: rotateZ(270deg);
+    }
+    .coupons-section table{
+        width: 36rem;
+    }
+    .coupons-section{
+        width: 36rem;
+    }
+    th:nth-child(3), th:nth-child(5) {
+        display: none
+      }
+    td:nth-child(3), td:nth-child(5) {
+        display: none
+      }
+    td:nth-child(4){
+        padding-right: 1rem;
+    }
+    
 }
