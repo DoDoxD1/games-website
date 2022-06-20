@@ -9,6 +9,9 @@
 html{
     font-size: 10px;
 }
+body{
+    overflow-x: hidden;
+}
 .margin-left-20{
     margin-left: 2rem;
 }
