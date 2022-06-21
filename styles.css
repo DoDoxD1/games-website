@@ -241,8 +241,102 @@ body{
 .get-free-left img{
     border-radius: .5rem;
 }
-.get-free-img{
+.get-free{
+    background-color: #4926c2;
+    width: 66rem;
+    display: flex;
+    align-items: flex-end;
+    border-radius: .5rem;
     margin-bottom: 5rem;
+    color: white;   
+}
+.get-free-img{
+    margin: 3rem 4rem;
+}
+.get-free-img p{
+    margin-left: 14.5rem;
+}
+
+.earn-coins-container{
+    width: 57.5rem;
+    padding: 4rem;
+    border-radius: .5rem;
+    background-image: linear-gradient(to right, #8471ee , #604fed);
+    display: flex;
+    justify-content: space-between;
+}
+.earn-coins{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 3rem;
+    /* align-items: center; */
+    background-color: white;
+    width: 22rem;
+    height: 10rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+}
+.earn-coins ul{
+    margin-top: 1.5rem;
+    font-size: 1.1rem;;
+}
+.earn-coins-right{
+    margin-top: 5rem;
+}
+.ball{
+    background-color: #f376b8;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50rem;
+    position: absolute;
+    margin: -1rem;
+    color: white;
+}
+.ball-2{
+    margin: 4rem;
+    margin-left: 28.4rem;
+}
+.ball p{
+    margin: 1rem;
+    font-weight:bolder;
+}
+.balls-container{
+    z-index: 5;
+    position: absolute; 
+    margin-left: 12rem;
+    margin-top: -1.5rem;
+}
+.balls-container i{
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    height: 3rem;
+    width: 3rem;
+    background-color: #abaaca;
+    border-radius: 20rem;
+    padding-left: .8rem;
+    padding-top: .5rem;
+}
+.make-center{
+    margin-left: 5rem;
+}
+.make-center-2{
+    margin-left: 10rem;
+}
+.database-icon{
+    background-color: #5432cf;
+    position: absolute;
+    margin-left: 48rem;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    height: 2.4rem;
+    width: 4rem;
+    color: white;
+}
+.database-icon i{
+    margin-left: 1.2rem;
 }
 .get-free-left p{
     margin-top: .5rem;
@@ -325,6 +419,7 @@ body{
     margin-bottom: -2.5rem;
     
 }
+
 
 .shops-container{
     /* display: flex;
@@ -582,9 +677,119 @@ body{
     .get-free-left img{
         height: 14rem;
     }
-    .get-free-img{
-        height: 7.8rem !important;
+    .get-free{
+        /* height: 7.8rem !important; */
+        width: 100%;
+        align-items: center;
+        font-size: 1.1rem;
+        font-weight: normal;
     }
+    .get-free-img{  
+        margin: 1rem;
+        
+        /* height: 1rem !important; */
+    }
+    .get-free-text{
+        margin-top: 4rem;
+    }
+    .get-free-text p{
+        font-size: 1rem;
+    }
+    .get-free-img img{
+        height: 6rem;
+    }
+
+
+    /* earn coins section */
+
+    .earn-coins-container{
+        width: 29rem;
+        padding: 2.6rem;
+        border-radius: .5rem;
+        background-image: linear-gradient(to right, #8471ee , #604fed);
+        display: flex;
+        justify-content: space-between;
+    }
+    .earn-coins{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 4rem 3rem;
+        /* align-items: center; */
+        background-color: white;
+        width: 8rem;
+        height: 5rem;
+        border-radius: .5rem;
+        font-size: 1rem;
+    }
+    .earn-coins ul{
+        margin-top: .8rem;
+        font-size: .8rem;;
+    }
+    .earn-coins-right{
+        margin-top: 2.5rem;
+    }
+    .ball{
+        background-color: #f376b8;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 50rem;
+        position: absolute;
+        margin: -1rem;
+        color: white;
+    }
+    .ball-2{
+        margin: 2rem;
+        margin-left: 14.2rem;
+    }
+    .ball p{
+        margin-top: -.1rem;
+        margin-left: .5rem;
+        font-weight:600;
+    }
+    .balls-container{
+        z-index: 5;
+        position: absolute; 
+        margin-left: 6rem;
+        margin-top: -1rem;
+    }
+    .balls-container i{
+        color: white;
+        position: absolute;
+        font-size: 1rem;
+        height: 1.5rem;
+        width: 1.5rem;
+        background-color: #abaaca;
+        border-radius: 20rem;
+        padding-left: .4rem;
+        padding-top: .4rem;
+    }
+    .make-center{
+        margin-left: 2.5rem;
+    }
+    .make-center-2{
+        margin-left: 5rem;
+    }
+    .database-icon{
+        background-color: #5432cf;
+        position: absolute;
+        margin-left: 24rem;
+        margin-top: -.1rem;
+        padding: .4rem;
+        padding-bottom: 2rem;
+        border-radius: .5rem;
+        height: 1rem;
+        width: 3rem;
+        color: white;
+    }
+    .database-icon i{
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+
+    /* earn coins section */
+
+
     .get-free-right{
         width: 85%;
     }
