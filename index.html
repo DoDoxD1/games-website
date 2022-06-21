@@ -8,6 +8,7 @@
     <title>ReadyMotive</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 
 <body>
@@ -98,13 +99,24 @@
             <div class="get-free-section">
                 <div class="get-free-left">
                     <div>
-                        <div class="get-free">
-                            <div class="get-free-img">
-                                <img src="images/treasure.png" alt="" height="100">
+                        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+                            <div class="get-free carousel-cell">
+                                <div class="get-free-img">
+                                    <img src="images/treasure.png" alt="" height="100">
+                                </div>
+                                <div class="get-free-text">
+                                    Get Free Gift Cards & Discount<br>
+                                    <p> the everyday things you do online right now!</p>
+                                </div>
                             </div>
-                            <div class="get-free-text">
-                                Get Free Gift Cards & Discount<br>
-                                <p> the everyday things you do online right now!</p>
+                            <div class="get-free carousel-cell">
+                                <div class="get-free-img">
+                                    <img src="images/treasure.png" alt="" height="100">
+                                </div>
+                                <div class="get-free-text">
+                                    Get Free Gift Cards & Discount 2<br>
+                                    <p> the everyday things you do online right now!</p>
+                                </div>
                             </div>
                         </div>
                         How it works
@@ -352,5 +364,5 @@
         cross.style.display = "none";
     }
 </script>
-
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </html>

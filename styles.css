@@ -563,6 +563,34 @@ body{
 .cross{
     display: none;
 }
+
+.flickity-button {
+    margin-top: 8rem;
+    height: 2.5rem !important;
+    width: 2.5rem !important;
+    display: flex;
+    justify-content: flex-end;
+    background: none !important;
+  }
+ .flickity-prev-next-button.previous{
+    left: 55rem !important;
+ }
+ .flickity-page-dots{
+    width: max-content !important;
+ }
+ .flickity-page-dots .dot {
+    height: .6rem !important;
+    width: .6rem !important;
+    border-radius: .1rem;
+ }
+  .flickity-page-dots {
+    bottom: 3rem !important;
+  }
+  .flickity-page-dots .dot.is-selected {
+    background: #d8b35b;
+    width: 4rem !important;
+    border-radius: .5rem;
+  }
 @media screen and (max-width: 450px) {
     .bgDiv{
         /* width: max-content; */
@@ -845,4 +873,11 @@ body{
         padding-right: 1rem;
     }
     
+   .flickity-button{
+    margin-top: 5.5rem !important;
+   }
+   .flickity-prev-next-button.previous{
+    left: 29.5rem !important;
+ }
 }
+
