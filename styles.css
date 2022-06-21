@@ -464,7 +464,7 @@ body{
 }
 @media screen and (max-width: 450px) {
     .bgDiv{
-        width: 42rem;
+        /* width: max-content; */
         height: 480rem;
     }
     .nav-mobile{
@@ -499,6 +499,9 @@ body{
         display: inline;
         justify-content: center;
         align-items: center;
+    }
+    .button{
+        margin-top: 1rem;
     }
     .buttonTop{
         margin-left: 0rem; 
@@ -583,7 +586,7 @@ body{
         height: 7.8rem !important;
     }
     .get-free-right{
-        width: 75%;
+        width: 85%;
     }
     .shops-section{
         width: 35rem;
