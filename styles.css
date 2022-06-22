@@ -431,7 +431,7 @@ body{
     margin-right: .5rem;
 }
 .fa-arrow-right{
-    margin-left: 13.5rem;
+    /* margin-left: 1rem; */
 }
 /* right side part */
 
@@ -696,7 +696,7 @@ body{
     padding: 1rem;
     background-color: white;
     border-radius: .8rem;
-    font-size: .12rem;
+    font-size: 1.2rem;
 }
 .image-card :hover{
     color: #ffa02b  ;
@@ -709,6 +709,7 @@ body{
     background-color: white;
     border: 0rem;
 }
+
 .active{
     color: #ffa02b;
 }
