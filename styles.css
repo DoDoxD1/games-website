@@ -82,15 +82,19 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .playstationImg{
-    margin-top: 1rem;
-    height: 50rem;
-    width: 100rem;
-    box-shadow: -.2rem .5rem 2rem rgb(73, 73, 73);
+    margin-top: -24.5rem;
+    margin-left: -1.5rem;
+    height: 100rem;
+    width: 50rem;
+    box-shadow: .4rem .5rem 2rem rgb(73, 73, 73);
     background-image: linear-gradient(to bottom right, #0085d6, #003387);
+    border-radius: .5rem;
+    transform: perspective(50rem) rotate(90deg) rotateX(-1deg);
+    z-index: 2;
 }
 .joinCard{
     display: flex;
-    margin-top: 1rem;
+    margin-top: -24.7rem;
     height: 25rem;
     width: 100rem;
     background-color: white;
@@ -641,11 +645,11 @@ body{
         width: 35rem;
     }
     .playstationImg{
-        margin: 2rem;
-        width: 35rem;
+        margin: 8rem;
+        height: 35rem;
     }
     .joinCard{
-        margin-top: 2rem;
+        margin-top: -.5rem;
         width: 35rem;
         display: grid;
         height: max-content;
