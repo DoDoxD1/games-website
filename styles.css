@@ -225,7 +225,7 @@ body{
     font-weight: 600;
 }
 
-.images-top-div{
+/* .images-top-div{
     margin-top: 40rem !important;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -238,7 +238,7 @@ body{
 }
 
 .images-top-div .flickity-page-dots {
-    /* bottom: 3rem !important; */
+    bottom: 3rem !important;
     display: none;
 }
 .images-top-div .flickity-button {
@@ -254,7 +254,30 @@ body{
  }
 .images-top-div .flickity-prev-next-button.next{
     left: 145rem !important;
+ } */
+
+ .slider-container{
+    width: 148rem;
+    display: block;
+    margin: auto;
  }
+ .img-slider{
+    margin-top: 40rem;
+    width: 25rem;
+ }
+.img-slider img{
+    height: 32rem;
+} 
+.slider-container .flickity-page-dots {
+    display: none;
+}
+.slider-container .flickity-button {
+    margin-top: 40rem;
+ }
+ .slider-container .flickity-prev-next-button.previous{
+    left: 142rem !important;
+ }
+
 
 .gift-cards-container{
     width: 100rem;
@@ -784,8 +807,12 @@ body{
 @media screen and (max-width: 450px) {
     .bgDiv{
         /* width: max-content; */
-        height: 480rem;
+        height: 160rem;
     }
+    .gift-cards-right-container{
+        background-color: transparent;
+    }
+    
     .nav-mobile{
         position: fixed;
         background-color: rgba(0, 0, 0, .7);
@@ -873,13 +900,24 @@ body{
         margin: auto;
     }
 
-    .images-top-div{
-        width: 35rem;
+    .slider-container{
+        width: 39rem;
     }
 
-    .image-top-div img{
-        height: 10rem !important;
+    .img-slider{
+        width: 20rem;
     }
+
+    .img-slider img{
+        height: 28rem;
+    }
+
+    .slider-container .flickity-button {
+        margin-top: 38rem !important;
+     }
+     .slider-container .flickity-prev-next-button.previous{
+        left: 32.5rem !important;
+     }
 
     .gift-cards-container{
         margin-top: 10rem;
