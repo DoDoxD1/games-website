@@ -12,12 +12,13 @@ html{
 }
 body{
     overflow-x: hidden;
+    background-color: #e6e6e6;
 }
 .margin-left-20{
     margin-left: 2rem;
 }
 .bgDiv{
-    height: 300rem;
+    height: 140rem;
     /* width: 152rem; */
     background-color: #dbdbe7;
 }
@@ -224,12 +225,197 @@ body{
     font-weight: 600;
 }
 
+.images-top-div{
+    margin-top: 40rem !important;
+    margin-left: 2rem;
+    margin-right: 2rem;
 
+}
+.images-top-div img{
+    height: 31.5rem !important;
+    background-color: white;
+    padding: 1rem;
+}
+
+.images-top-div .flickity-page-dots {
+    /* bottom: 3rem !important; */
+    display: none;
+}
+.images-top-div .flickity-button {
+    margin-top: 20rem;
+    height: 2.5rem !important;
+    width: 2.5rem !important;
+    display: flex;
+    justify-content: flex-end;
+    background: none !important;
+  }
+.images-top-div .flickity-prev-next-button.previous{
+    left: 140rem !important;
+ }
+.images-top-div .flickity-prev-next-button.next{
+    left: 145rem !important;
+ }
+
+.gift-cards-container{
+    width: 100rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20rem;
+}
+.gift-cards-left{
+    width: 25%;
+}
+.gift-cards-left-top{
+    font-size: 3rem;
+}
+.gift-cards-left-bottom{
+    margin-top: 20rem;
+    font-size: 1rem;
+    color: darkgray;
+    display: flex;
+}
+.gift-cards-left-bottom i{
+    margin-top: 1rem;
+    background-color: #f5de5c;
+    padding: .5rem;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+}
+.gift-cards-left-bottom u{
+    font-weight: bold;
+    color: rgb(94, 94, 94);
+}
+.gift-cards-left-bottom br{
+    font-size: 1px;
+}
+.gift-cards-left p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.gift-cards-right-container{
+    width: 65%;
+    height: 46rem;
+    background-color: #d9d8dd;
+    position: relative;
+    border-radius: 2.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.t300{
+    margin: -1rem 0;
+    font-size: 6rem;
+    /* background: -webkit-linear-gradient(to bottom right, #8b77f2, #6349f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background: -webkit-linear-gradient(left,#9f8bff, #472be4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gift-cards-right{
+    padding: 5rem;
+    height: 32rem;
+    width: 78%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    border-radius: .8rem;
+}
+.gift-cards-right p{
+    margin-top: -12.5rem;
+    margin-left: 25rem;
+}
+.koinscard{
+    margin-top: 2rem;
+    margin-left: 25rem;
+    display: flex;
+}
+.card{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    width: 8rem;
+    padding: 1rem .8rem;
+    margin-right: 1rem;
+    color: #4926c2;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    box-shadow: -.1rem .1rem 1rem #efebff;
+}
+.card i{
+    font-size: 2rem;
+}
+.yellow-text{
+    color: #f5de5c; 
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.giftcard{
+    position: absolute;
+    margin-top: 24rem;
+    height: 9.5rem;
+    width: 20rem;
+    background-image: linear-gradient(to right,#eda616,#f9ce03);
+    color: white;
+    border-radius: .8rem;
+    z-index: 2;
+    padding: 2rem;
+    font-size: 1.5rem;
+    overflow: hidden;
+}
+.most-popular{
+    position: absolute;
+    background-color: blue;
+    padding: .5rem 3rem;
+    width: max-content;
+    transform: rotate(45deg);
+    margin-top: .5rem;
+    margin-left: 12rem;
+    font-size: 1rem;
+    
+}
+.giftcard img{
+    padding: 1rem;
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 0rem 0rem .8rem #9e9e9e;
+    margin-bottom: 1.2rem;
+}
+.card2{
+    margin-left: 28rem;
+    background-image: linear-gradient(to right,#ee6dae,#ec8fbb);
+}
+.card3{
+    margin-left: 56rem;
+    background-image: linear-gradient(to right,#4c6cf5,#7195f3);
+}
+.card4{
+    margin-left: 84rem;
+    background-image: linear-gradient(to right,#8875eb,white);
+    width: 9.8rem;
+    border-radius: 1.5rem 0rem 0rem 1.5rem;
+}
+.fa-star{
+    margin-right: .5rem;
+}
+.fa-arrow-right{
+    margin-left: 13.5rem;
+}
 /* right side part */
 
 .get-free-container{
     display: flex;
     justify-content: center;
+    margin-top: -20rem;
 }
 .get-free-section{
     width: 100rem;
@@ -686,6 +872,67 @@ body{
     .google{
         margin: auto;
     }
+
+    .images-top-div{
+        width: 35rem;
+    }
+
+    .image-top-div img{
+        height: 10rem !important;
+    }
+
+    .gift-cards-container{
+        margin-top: 10rem;
+        width: 35rem;
+        flex-direction: column;
+    }
+
+    .gift-cards-left{
+        width: 100%;
+    }
+
+    .gift-cards-left-bottom{
+        /* display: none; */
+        margin-top: 1rem;
+    }
+
+    .gift-cards-right-container{
+        width: 35rem;
+    }
+
+    .gift-cards-right{
+        margin-top: 20rem;
+        width: 35rem;
+        height: 70rem;
+        text-align: center;
+    }
+    
+    .gift-cards-right p{
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    .koinscard{
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    .card1{
+        margin-left: 5rem;
+        margin-top: 55rem;
+    }
+    .card2{
+        margin-left: 5rem;
+        margin-top: 70rem;
+    }
+    .card3{
+        margin-left: 5rem;
+        margin-top: 85rem;
+    }
+    .card4{
+        display: none;
+    }
+
     .join-top{
         display: block;
     }
@@ -710,11 +957,15 @@ body{
         display: grid;
     }
     .get-free-left{
+        margin-top: 10rem;
         width: 35rem;
         text-align: left;
     }
     .get-free-left img{
         height: 14rem;
+    }
+    .get-free-container{
+        margin-top: 0;
     }
     .get-free{
         /* height: 7.8rem !important; */
